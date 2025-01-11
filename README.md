@@ -131,7 +131,7 @@ The Mean Absolute Percentage Error (MAPE) indicates the percentage deviation of 
 ### 5. R-Square Comparison
 The bar chart below compares the R² (coefficient of determination) scores of the three models: Decision Tree, Random Forest, and SVR. The R² score measures how well the independent variables predict the dependent variable (`TOTAL_PRICE`). Higher values indicate better model performance.
 
-![R-Square Comparison](Results/r_sqare.jpg)
+![R-Square Comparison](Results/r_square.jpg)
 
 ---
 
