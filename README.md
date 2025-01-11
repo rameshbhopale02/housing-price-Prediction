@@ -103,37 +103,38 @@ The model's performance was evaluated using the following metrics:
 | **RMSE**         | 0.0056        | 0.0281        | 0.2332  |
 | **MAPE**         | 1.3712        | 8.0277        | 1.5062  |
 
-Add an image showcasing the metrics or a summary plot for better understanding:
-
-![Performance Metrics](path/to/metrics_image.png)
 
 ---
 
-### 2. Scatter Plot: Predicted vs Actual Prices
-The scatter plot below shows the relationship between the actual and predicted prices for the test dataset. This visualizes the effectiveness of the model.
+### 2.  Scatter Plot: INT_SQFT vs. SALES_PRICE
+The scatter plot below demonstrates the relationship between the interior square footage (`INT_SQFT`) of houses and their sale price (`SALES_PRICE`). As expected:
 
-![Scatter Plot](path/to/scatter_plot.png)
-
----
-
-### 3. Feature Importance
-The Random Forest model provides a feature importance plot that shows which features contribute the most to predicting house prices.
-
-![Feature Importance](path/to/feature_importance.png)
+![Scatter Plot](Results/scatter_plot.jpg)
 
 ---
 
-### 4. Residual Analysis
-Residual analysis helps identify patterns in prediction errors. The plot below displays residuals for the predicted values.
+### 3. RMSE Comparison for Models
+The chart below illustrates the RMSE (Root Mean Square Error) values for Decision Tree, Random Forest, and SVR models. RMSE measures the average magnitude of prediction errors, with lower values indicating better model performance.
 
-![Residual Plot](path/to/residual_plot.png)
+
+![RMSE Comparison for Models](Results/rmse.jpg)
 
 ---
 
-### 5. Model Comparisons
-A comparison of R², RMSE, and MAPE values across models (Random Forest, Decision Tree, and SVR) is visualized below.
+### 4. MAPE Comparison
+The Mean Absolute Percentage Error (MAPE) indicates the percentage deviation of predicted values from actual values. Lower MAPE signifies better model accuracy. The chart below shows the MAPE values for Decision Tree, Random Forest, and SVR models.  
 
-![Model Comparisons](path/to/model_comparison_plot.png)
+![MAPE Comparison](Results/mape.jpg)
+
+---
+
+### 5. R-Square Comparison
+The bar chart below compares the R² (coefficient of determination) scores of the three models: Decision Tree, Random Forest, and SVR. The R² score measures how well the independent variables predict the dependent variable (`TOTAL_PRICE`). Higher values indicate better model performance.
+
+![R-Square Comparison](Results/r_sqare.jpg)
+
+---
+
 
 ## Conclusion
 This project highlights the importance of comprehensive data preprocessing and the exploration of various machine learning models to predict housing prices accurately. Key takeaways include:
