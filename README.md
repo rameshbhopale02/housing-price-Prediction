@@ -56,7 +56,7 @@ my.normalize = function(b){
 
 ```
 ### 2. **Model Implementation**
-1)  Random Forest
+1)  Random Forest.
 ```r
 library(randomForest)
 
