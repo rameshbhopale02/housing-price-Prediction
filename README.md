@@ -19,7 +19,7 @@ This project aims to predict the total house price in Chennai city using machine
 
 ## Dataset
 **Name:** Chennai Housing Sale  
-**Source:** [Kaggle - Chennai House Price Prediction](https://www.kaggle.com/code/kunwarakash/chennai-house-price-predictio)  
+**Source:** [Kaggle - Chennai House Price Prediction](https://www.kaggle.com/dataset/chennai-house-price-prediction)  
 
 ---
 
